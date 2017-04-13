@@ -86,6 +86,7 @@ body {
 .column.third {width: 33.3%;}
 .column.fourth { width: 25%;}
 .column.flow-opposite { float: right;}
+
 @media (min-width: 1024px) {
     html { font-size: 120%;}
 }
