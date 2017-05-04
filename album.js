@@ -118,9 +118,8 @@ window.onload = function() {
              index = 0;
          }
      });
- };
 
-var findParentByClassName = Function(element, targetClass) {
+var findParentByClassName = function(element, targetClass) {
     if(Element) {
         var currentParent = element.parentElement;
         while (currentParent.className !== targetClass && currentParent.className !== null) {
